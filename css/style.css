@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+
+body {
+	font-family: 'Lora', sans-serif;
+	background-color: rgb(240,240,240);
+}
+
+h1,h2,h3 {
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+body {
+background-color:#e8e8e8;
+color: #214252;
+font-family: 'Xanh Mono', monospace;
+font-size: 16px
+}
+
+
+.card-white {
+	border-radius: 6px;
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+
+img {
+	width: : 200;
+	height: 200px;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+#introduction p {
+	margin-bottom: 40px
+}
+
+h1,h2 {
+	font-family: 'Lato', sans-serif;
+;
+}
+
+h1 {
+	color: #f05454;
+	letter-spacing: 8px;
+	font-size: 35px;
+	font-weight: 700
+}
+
+h2 {
+	color: #af2d2d;
+	letter-spacing: 2px
+	font-size: 32px;
+	font-weight: 300;
+}
+
+a {
+	color: #ce6262;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	font-family: 'Lato', sans-serif;
+}
+a:hover {
+	color: yellow;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(220,220,220);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+
